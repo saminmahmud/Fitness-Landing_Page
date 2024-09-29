@@ -1,0 +1,577 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #111111fd;
+}
+
+.inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.dancing-script{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* common btn */
+
+.nav-area{
+    background-image: linear-gradient(to bottom, #111111, #454545c7);
+}
+
+.nav-content{
+    display: none;
+}
+
+.container{
+    padding: 2.5rem 1.25rem;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    color: #E6533C;
+    font-size: 2rem;
+}
+
+.icon{
+    width: 2rem;
+    color: white;
+}
+
+/* hero section start */
+.hero-title{
+    width: 270px;
+    padding-top: 2rem;
+    font-size: 2.3rem;
+    line-height: 43.2px;
+    color: white;
+}
+
+.hero-para{
+    width: 274px;
+    height: 96px;
+    padding-top: 1.75rem ;
+    color: #FFFFFF80;
+}
+
+.hero-btn{
+    padding: 1.75rem 0rem;
+    display: flex;
+    gap: 20px;
+}
+.common-btn{
+    width: 170px;
+    height: 54px;
+    padding: 0px, 40px 16px, 40px;
+    background-color: #E6533C;
+    color: white;
+    font-weight: 600;
+    border-radius: 42px;
+    border: none;
+}
+
+.download-btn{
+    width: 170px;
+    height: 54px;
+    padding: 0px, 40px 16px, 40px;
+    background: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 42px;
+    border: 1px solid white;
+}
+
+/* habit section */
+.habit-content{
+    width: 318px;
+    height: 38px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 140px;
+}
+
+.habit-title{
+    color: white;
+    font-weight: 900;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.habit-para{
+    color: #FFFFFF80;
+    padding-bottom: 10px;
+}
+
+.habit-images {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    gap: 40px; 
+}
+.card{
+    width: 231px;
+    height: 230px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+}
+.card > img{
+    width: 180px;
+    height: 180px;
+    gap: 0px;
+    border-radius: 90px;
+    border: 4px 0px 0px 0px;
+
+}
+.card > h2{
+    color: white;
+    font-weight: 900;
+    padding-bottom: 5px;
+}
+.card > p{
+    color: #FFFFFF80;
+    padding-bottom: 5px;
+}
+
+/* run section start */
+.run{
+    background-color: #222222;
+    border-radius: 15px;
+    padding: 22px 55px;
+    text-align: center;
+}
+.run-title{
+    color: white;
+    font-weight: 900;
+    font-size: 35px;
+    padding-bottom: 10px;
+    text-align: start;
+}
+.run-para{
+    color: #FFFFFF80;
+    padding-bottom: 10px;
+    text-align: start;
+}
+.run-btn{
+    width: full;
+    height: 54px;
+    padding: 0px, 40px 16px, 40px;
+    background-color: #E6533C;
+    color: white;
+    font-weight: 600;
+    border-radius: 40px;
+    border: none;
+}
+.run-img{
+    width: 287px;
+    /* width: 90%; */
+    height: 170px;
+    padding-top: 12px;
+    border-radius: 18px;
+} 
+
+/* Bmi section start */
+.bmi-title{
+    color: white;
+    font-weight: 900;
+    font-size: 35px;
+    padding-bottom: 10px;
+    text-align: start;
+}
+.bmi-para{
+    color: #FFFFFF80;
+    padding-bottom: 10px;
+    text-align: start;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+/* Calculator section start */
+.calculator-area{
+    background-color: #222222;
+}
+.chart-title{
+    color: white;
+    font-weight: 900;
+    font-size: 35px;
+    padding-bottom: 10px;
+    text-align: start;
+}
+table, th, td{
+    border: 1px solid #FFFFFF1A;
+    border-collapse: collapse;
+    padding: 15px;
+    text-align: start;
+}
+thead{
+    color: #FFFFFF;
+    font-weight: 500;
+}
+tbody{
+    color: #FFFFFF80;
+}
+
+/*  */
+.calculate-title{
+    color: white;
+    font-weight: 900;
+    font-size: 35px;
+    padding-bottom: 10px;
+    text-align: start;
+}
+.calculate-para{
+    color: #FFFFFF80;
+    padding-bottom: 10px;
+    text-align: start;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    color: #FFFFFF1A;
+    gap: 10px;
+}
+.form-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.input{
+    color: #FFFFFF1A;
+    background-color: #222222;
+    width: 170.5px;
+    height: 48px;
+    padding: 12px 40px 12px 20px;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF1A;
+}
+.last-select{
+    width: 90%;
+}
+.common-btn-again{
+    margin-top: 10px;
+}
+
+/* Team section start */
+.team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.team-content{
+    text-align: center;
+}
+
+.team-title{
+    width: 370px;
+    padding-top: 2rem;
+    font-size: 2.3rem;
+    line-height: 43.2px;
+    color: white;
+}
+
+.team-para{
+    width: 374px;
+    height: 96px;
+    padding-top: 1.75rem ;
+    color: #FFFFFF80;
+}
+.team-img{
+    width: 80%;
+    height: 300px;
+    border-radius: 18px;  
+}
+.team-img-container{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* footer section start  */
+.footer-area{
+    background-color: #222222;
+}
+
+.content1-title{
+    color: #E6533C;
+    font-weight: 900;
+    font-size: 35px;
+    padding-bottom: 10px;
+    text-align: start;
+}
+.content1-para{
+    color: #FFFFFF80;
+    padding-bottom: 10px;
+    text-align: start;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.title{
+    color: white;
+    font-weight: 500;
+    font-size: 35px;
+    padding-bottom: 10px;
+    text-align: start;
+}
+
+.footer-ul{
+    color: #FFFFFF80;
+    list-style-type: none;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+.footer-content2{
+    padding-bottom: 10px;
+}
+.footer-content3{
+    padding-bottom: 10px;
+}
+hr{
+    color: rgba(255, 255, 255, 0)
+}
+
+/* Copyright section start */
+.copyright-area{
+    background-color: #222222;
+}
+.copyright-part {
+    text-align: center; /* Center text */
+    padding: 20px;
+    font-size: 14px; /* Smaller font for copyright */
+    color: #999; /* Light gray color */
+}
+
+/* for pad */
+@media screen and (min-width: 768px)
+{
+    .container{
+        padding: 3rem 2rem;
+    }
+    .icon{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .icon{
+        display: none;
+    }
+    
+    .nav-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+    }
+    
+    .nav-list{
+        padding-left: 2.5rem;
+    }
+
+    .nav-link{
+        text-decoration: none;
+        color: #ffffffa2;
+    }
+
+    /* hero section start */
+    .hero-title{
+        width: 589px;
+        font-weight: 900;
+        line-height: 93.6px;
+        font-size: 78px;
+    }
+    .hero-para{
+        width: 599px;
+        height: 60px;
+    }
+
+    /* run section start */
+    .run{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+    }
+    .run-btn{
+        width: 170px;
+    }
+    .run-img{
+        Width: 256px;
+        Height: 300px;
+    }
+
+    /* Bmi start */
+    .bmi-area{
+        margin-bottom: 50px;
+    }
+    /*  */
+    .form{
+        display: flex;
+        flex-wrap: wrap;
+        color: #FFFFFF1A;
+        gap: 10px;
+    }
+    .form-div{
+        display: flex;
+        gap: 10px;
+        padding-top: 10px;
+    }
+    .form-div-last{
+        padding-top: 10px;
+    }
+    .input{
+        color: #FFFFFF1A;
+        background-color: #222222;
+        width: 320px;
+        height: 48px;
+        padding: 12px 40px 12px 20px;
+        border-radius: 10px;
+        border: 1px solid #FFFFFF1A;
+    }
+    .last-select{
+        width: 650px;
+    }
+
+    /* Team section start */
+    .title-title{
+        width: 589px;
+        font-weight: 900;
+        line-height: 93.6px;
+        font-size: 78px;
+    }
+    .title-para{
+        width: 599px;
+        height: 60px;
+    }
+
+    .team-img{
+        width: 200px;
+        height: 300px;
+        border-radius: 18px;  
+    }
+    .team-img-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    /* footer section start */
+    .gap {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0; 
+    }
+    
+    .footer-content2, .footer-content3 {
+        flex: 1; 
+        min-width: 200px; 
+        margin: 0 10px; 
+    }
+}
+
+/* for destop */
+@media screen and (min-width: 1024px)
+{
+    .container{
+        padding: 2.5rem 11.8rem;
+    }
+    .hero{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    /* run section start */
+    .run{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+    }
+    .run-btn{
+        width: 170px;
+    }
+    .run-img{
+        Width: 366px;
+        Height: 312px;
+    }
+    /* Bmi start */
+    .bmi-area{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /* footer section start */
+    /* .footer{
+        display: flex;
+        flex-direction: row;
+    } */
+    
+    .gap{
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* Calculator section start */
+    .chart-calculate{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    /* Team section start */
+    .team-img{
+        width: 380px;
+        height: 300px;
+        border-radius: 18px;  
+    }
+    .team-img-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    /* Footer section start */
+    .footer{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+
+    
+}
